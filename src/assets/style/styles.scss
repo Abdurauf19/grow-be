@@ -257,6 +257,7 @@ body {
     @include transition-ease
   }
   .main-box:hover {
+    transform: translateY(-10px);
     box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
   }
   .box-content__title {
@@ -290,5 +291,86 @@ body {
     justify-content: center;
     max-width: 70px;
   }
+}
+
+
+// Main Box
+
+.cards-container {
+  @include container;
+  flex-direction: column;
+  background: #FAFAFA;
+  padding-bottom: 100px;
+
+  .main-cards {
+    display: flex;
+    gap: 10px;
+    padding-top: 54px;
+  }
+  .main-card {
+    @include transition-ease;
+    padding:0 30px 50px 30px;
+    background-color: $White;
+  }
+  .main-card:hover{
+    transform: translateY(-10px);
+    background: $White;
+      box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+
+  }
+  .cards-content__title {
+    font-size: 45px;
+    line-height: 53px;
+    color: $TitleColor;
+    padding: 92px 0 19px 0;
+    text-align: center;
+  }
+
+  .cards-content__text {
+    font-size: 16px;
+    line-height: 24px;
+    color: $TextColor;
+    text-align: center;
+    max-width: 682px;
+    padding-bottom: 54px;
+  }
+  .main-card-content {
+    @include container;
+    flex-direction:column;
+  }
+  .main-card__title {
+    font-size: 24px;
+    line-height: 28px;
+    color: $TitleColor;
+    padding: 25px 0 22px 0;
+    text-align: center;
+  }
+
+  .main-card__text {
+    font-size: 15px;
+    line-height: 22px;
+    color: $TextColor;
+    text-align: center;
+    max-width: 310px;
+    padding-bottom: 39px;
+  }
+  .main-card__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include transition-ease;
+    gap: 16px;
+    font-size: 13px;
+    line-height: 20px;
+    color: $White;
+    background-color: $btnColor;
+    padding: 15px 31px;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+  }
+  .main-card__btn:hover {
+    @include btn-hover;
+  }
+  
 }
 
