@@ -1,0 +1,8 @@
+@mixin transition-ease {
+  transition: all .4s ease-in-out;
+}
+
+@mixin btn-hover {
+  color: $btnColor;
+  background-color: $black;
+}

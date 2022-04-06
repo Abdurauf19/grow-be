@@ -1,0 +1,153 @@
+// 1200 px
+@media only screen and (max-width:1200px) {
+  // header content
+  .header-containerr { 
+
+  .header-content__img {
+    width: 630px;
+    height: 630px;
+    }
+
+  }
+
+  .main-solution__img {
+    width: 600px;
+    height: 600px;
+  }
+
+  // Main card
+  .box-container {
+    flex-wrap: wrap;
+  }
+}
+
+// 1100 px
+@media only screen and (max-width:1100px) {
+  .header-containerr {
+      flex-wrap: wrap-reverse;
+      justify-content: flex-start;
+      row-gap: 50px;
+
+      .header-content__img {
+        width: 100%;
+        height: 100%;
+      }
+    .header-content__title{
+      font-size: 49px;
+    }
+    .header-content__text {
+      font-size: 19px;
+    }
+  }
+
+  .main-solution__img {
+    width: 550px;
+    height: 550px;
+  }
+}
+
+// 992 px
+@media only screen and (max-width:992px) {
+  // Header nav
+  .header-container {
+
+    .header-nav__list {
+      display: none !important;
+    }
+  
+    .header-hamburger {
+      display: flex;
+    }
+  }
+  // Solution 
+  .solution-container {
+    flex-direction: column-reverse;
+
+    .main-solution__img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+}
+
+// 768 px
+@media only screen and (max-width:768px) {
+  // Container logo
+  .logo-container {
+    flex-wrap: wrap;
+    gap: 31px;
+  }
+}
+
+// 576px
+@media only screen and (max-width:576px) {
+
+}
+// 501 px
+@media only screen and (max-width:501px) {
+  .header-containerr {
+    .header-content__title {
+      font-size: 41px !important;
+    }
+
+    .header-content__btns {
+      flex-direction: column;
+    }
+  }
+  
+  .solution-container {
+    flex-direction: column-reverse;
+
+    .solution-content__title {
+      font-size: 36px !important;
+    }
+  }
+}
+// 401 px
+@media only screen and (max-width:401px) {
+  .header-containerr {
+    .header-content__title {
+      font-size: 31px !important;
+      line-height: 51px !important;
+    }
+    .header-content__text {
+      font-size: 16px !important;
+    }
+  }
+
+  // Solution
+  .solution-container {
+    flex-direction: column-reverse;
+
+    .main-solution__content {
+      display: flex;
+      flex-direction: column;
+
+    }
+
+    .solution-content__title {
+      font-size: 27px !important;
+    }
+    .solution-content__text {
+      font-size: 14px !important;
+    }
+  }
+
+  // Main card
+  .main-box {
+    padding: 30px !important;
+  }
+  .box-content__title {
+    font-size: 17px !important;
+  }
+  .box-content__text {
+    font-size: 12px !important;
+    max-width: 210px !important;
+  }
+ 
+}
+
+@media only screen and (max-width:340px) {
+  
+}
