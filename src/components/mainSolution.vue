@@ -1,5 +1,5 @@
 <template>
-  <div class="container solution-container">
+  <div class="solution-container">
     <!-- content -->
     <div class="main-solution__content">
       <h2 class="solution-content__title">Perfect Solution For Your Business</h2>

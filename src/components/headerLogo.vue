@@ -1,5 +1,5 @@
 <template>
-  <div class="container logo-container">
+  <div class="logo-container">
     <svg
       width="160"
       height="50"

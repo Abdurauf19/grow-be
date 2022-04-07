@@ -1,5 +1,5 @@
 <template>
-  <div class="container header-containerr">
+  <div class="header-containerr">
     <div class="header-content">
       <h2 class="header-content__title">
         SEO & Digital <span class="content-title-m"> Marketing </span>For Your

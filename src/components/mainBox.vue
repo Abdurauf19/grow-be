@@ -1,5 +1,5 @@
 <template>
-  <div class="container cards-container">
+  <div class=" cards-container">
     <div class="main-cards__content">
       <h3 class="cards-content__title">Why You Should Choose Us.</h3>
       <p class="cards-content__text">Distinctively exploit optimal alignments for intuitive bandwidth. Quickly coordinate e-business applications through revolutionary catalysts.</p>

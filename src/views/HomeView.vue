@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="containerr">
     <headerNav />
     <headerContent/>
     <headerLogo/>
@@ -8,6 +8,7 @@
     <mainSolution/>
     <mainCard/>
     <mainBox/>
+    <mainSeo/>
   </main>
 </template>
 
@@ -18,6 +19,7 @@ import headerLogo from '../components/headerLogo'
 import mainSolution from '../components/mainSolution.vue'
 import mainCard from '../components/mainCard.vue'
 import mainBox from '../components/mainBox.vue'
+import mainSeo from '../components/MainSeo.vue'
 
 export default {
   components: {
@@ -26,7 +28,8 @@ export default {
     headerLogo,
     mainSolution,
     mainCard,
-    mainBox
+    mainBox,
+    mainSeo
   },
   data () {
     return {
