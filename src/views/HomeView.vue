@@ -11,19 +11,21 @@
     <mainSeo/>
     <mainNumber/>
     <mainForm/>
+    <mainPlan/>
   </main>
 </template>
 
 <script>
 import headerNav from '../components/HeaderNav.vue'
 import headerContent from '../components/HeaderContent.vue'
-import headerLogo from '../components/headerLogo.vue'
-import mainSolution from '../components/mainSolution.vue'
-import mainCard from '../components/mainCard.vue'
-import mainBox from '../components/mainBox.vue'
+import headerLogo from '../components/HeaderLogo.vue'
+import mainSolution from '../components/MainSolution.vue'
+import mainCard from '../components/MainCard.vue'
+import mainBox from '../components/MainBox.vue'
 import mainSeo from '../components/MainSeo.vue'
 import mainNumber from '../components/MainNumber.vue'
-import mainForm from '../components/mainForm.vue'
+import mainForm from '../components/MainForm.vue'
+import mainPlan from '../components/MainPlan.vue'
 
 export default {
   components: {
@@ -35,7 +37,8 @@ export default {
     mainBox,
     mainSeo,
     mainNumber,
-    mainForm
+    mainForm,
+    mainPlan
   },
   data () {
     return {

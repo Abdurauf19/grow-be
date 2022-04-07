@@ -106,7 +106,18 @@
     }
 
   }
-}
+
+  // Main plan
+ .container-plan {
+
+   .main-plan__cards {
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+   
+ }
+
+ }
 
 // 992 px
 @media only screen and (max-width:992px) {
@@ -337,14 +348,28 @@
       padding: 20px 0 !important;
     }
   }
-  // Main seo 
+  // Main plan
 
-  
+  .container-plan {
+
+    .main-plan__card  {
+      padding: 63px 75px 75px 70px !important;
+    }
+    .plan-content__title {
+      font-size: 36px;
+    }
+    .plan-card__com {
+      font-size: 15px;
+    }
+    .plan-card__btn {
+      font-size: 12px;
+    }
+  }
 }
 
-// Main seo 
 
 
+// 355 px
 @media only screen and (max-width:355px) {
 
   .container-seo {

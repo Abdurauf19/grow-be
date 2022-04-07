@@ -277,6 +277,7 @@ body {
     line-height: 28px;
     color: $TitleColor;
     padding: 25px 0 17px 0;
+    font-weight: bold;
   }
 
   .box-content__text {
@@ -429,6 +430,13 @@ body {
   padding: 100px 0 42px 0;
   
 
+  .main-number__content {
+    @include transition-ease
+  }
+
+  .main-number__content:hover {
+    transform: scale(1.1);
+  }
   .main-number {
     border: 2px solid #EEEEEE;
     padding: 27px 66px 37px 76px;
@@ -470,5 +478,51 @@ body {
   }
 
 
+}
+
+// Main plan 
+
+.container-plan {
+  @include container;
+  flex-direction:column;
+  background-color: #FAFAFA;
+
+  .main-plan__card {
+    background-color: $White;
+    padding: 63px 85px 85px 70px;
+    @include transition-ease;
+  }
+  .main-plan__card:hover{
+    transform: translateY(-10px);
+  }
+  .plan-card__title  {
+    @include transition-ease;
+  }
+  .main-plan__card:hover .plan-card__title {
+    color: $btnColor;
+  }
+  .main-plan__card:hover .plan-card__btn {
+    background-color: $btnColor;
+    color: $White;
+  }
+
+  .plan-content__title {
+    padding: 87px 0 3px 0;
+    color: $TitleColor;
+  }
+
+  .plan-content__text  {
+    color: $TextColor;
+  }
+
+  .plan-card__btn {
+    padding: 9px 64px;
+    background: rgba(242, 88, 34, 0.25);
+    border-radius: 50px;
+    color: $btnColor;
+    font-weight: bold;
+    margin-top: 27px;
+    @include transition-ease;
+  }
 }
 
