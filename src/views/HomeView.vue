@@ -1,9 +1,9 @@
 <template>
-  <div class="containerr">
+  <header class="containerr">
     <headerNav />
     <headerContent/>
     <headerLogo/>
-  </div>
+  </header>
   <main class="main">
     <mainSolution/>
     <mainCard/>
@@ -12,7 +12,12 @@
     <mainNumber/>
     <mainForm/>
     <mainPlan/>
+    <mainTeam/>
+    <mainComment/>
+    <mainNews/>
   </main>
+    <footer class="footer">
+    </footer>
 </template>
 
 <script>
@@ -26,6 +31,9 @@ import mainSeo from '../components/MainSeo.vue'
 import mainNumber from '../components/MainNumber.vue'
 import mainForm from '../components/MainForm.vue'
 import mainPlan from '../components/MainPlan.vue'
+import mainTeam from '../components/MainTeam.vue'
+import mainComment from '../components/MainComment.vue'
+import mainNews from '../components/MainNews.vue'
 
 export default {
   components: {
@@ -38,7 +46,10 @@ export default {
     mainSeo,
     mainNumber,
     mainForm,
-    mainPlan
+    mainPlan,
+    mainTeam,
+    mainComment,
+    mainNews
   },
   data () {
     return {
