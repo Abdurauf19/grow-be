@@ -17,6 +17,7 @@
     <mainNews/>
   </main>
     <footer class="footer">
+      <footerLink/>
     </footer>
 </template>
 
@@ -34,6 +35,8 @@ import mainPlan from '../components/MainPlan.vue'
 import mainTeam from '../components/MainTeam.vue'
 import mainComment from '../components/MainComment.vue'
 import mainNews from '../components/MainNews.vue'
+// footer
+import footerLink from '../components/footerLink.vue'
 
 export default {
   components: {
@@ -49,7 +52,8 @@ export default {
     mainPlan,
     mainTeam,
     mainComment,
-    mainNews
+    mainNews,
+    footerLink
   },
   data () {
     return {

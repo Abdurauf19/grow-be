@@ -5,8 +5,10 @@
         SEO & Digital <span class="content-title-m"> Marketing </span>For Your
         Website.
       </h2>
-      <p class="header-content__text">Provide all kind of seo services and help to improve
-seo ranking. Globally incubate standards.</p>
+      <p class="header-content__text">
+        Provide all kind of seo services and help to improve seo ranking.
+        Globally incubate standards.
+      </p>
       <div class="header-content__btns">
         <a href="#" class="header-content__btn">Start Now</a>
         <a href="#" class="header-content__btnn"
@@ -43,9 +45,8 @@ seo ranking. Globally incubate standards.</p>
 
 <script>
 export default {
-  data () {
-    return {
-    }
-  }
-}
+  data() {
+    return {};
+  },
+};
 </script>

@@ -531,6 +531,7 @@ body {
 .container-team {
   @include container;
   flex-direction:column;
+  flex-wrap: wrap;
   padding: 86px 0 0 0;
 
   .main-team__card {
@@ -553,6 +554,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 30px;
+    height: 30px;
     padding: 10px;
     border-radius: 50px;
     @include transition-ease;
@@ -592,5 +595,64 @@ body {
 
 .splide__pagination__page.is-active {
   background-color: $btnColor;
+}
+
+// Container footer
+.container-footer {
+  @include container;
+  padding-top: 108px;
+  background-color: #F3F3F3;
+
+
+  .footer-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    @include transition-ease;
+  }
+  .footer-icon path {
+    fill: #AAAAAA;
+  }
+  .footer-icon:hover {
+    @include transition-ease;
+    background-color: $btnColor;
+  }
+  .footer-icon:hover path{
+    @include transition-ease;
+    fill: $White;
+  }
+
+  .footer__link  {
+    position: relative;
+    @include transition-ease;
+  }
+  .footer__link:hover {
+    color: $btnColor;
+    @include transition-ease;
+  }
+  .footer__link:hover::after {
+    @include transition-ease;
+    position: absolute;
+    content: '';
+    width: 5px;
+    border-radius: 50px;
+    height: 5px;
+    left: -11px;
+    bottom: 10px;
+    background-color: $btnColor;
+  }
+   
+  .footer-footer {
+    border-bottom: 1px solid #CCCCCC;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: unset;
+    gap: 101px;
+    padding-bottom: 50px;
+  }
 }
 

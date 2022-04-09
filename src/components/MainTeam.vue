@@ -13,11 +13,29 @@
         tools and machines.
       </p>
     </div>
-    <div class="main-team__cards pb-[100px] flex-wrap items-center justify-center flex gap-[30px]">
-      <div class="main-team__card flex flex-col items-center justify-center" v-for="(item, i) in data" :key="i">
-        <img src="../photos/image.png" alt="Team user photo" class="team-card__img" />
-        <h3 class="team-card__title text-[20px] landing-[30px] text-[#000000] font-semibold pt-[14px]">{{ item.title }}</h3>
-        <p class="team-card__text text-[13px] landing-[20px] text-[#888888] font-medium pb-[17px]">{{ item.text }}</p>
+    <div
+      class="main-team__cards pb-[100px] flex-wrap items-center justify-center flex gap-[30px]"
+    >
+      <div
+        class="main-team__card flex flex-col items-center justify-center"
+        v-for="(item, i) in data"
+        :key="i"
+      >
+        <img
+          src="../photos/image.png"
+          alt="Team user photo"
+          class="team-card__img"
+        />
+        <h3
+          class="team-card__title text-[20px] landing-[30px] text-[#000000] font-semibold pt-[14px]"
+        >
+          {{ item.title }}
+        </h3>
+        <p
+          class="team-card__text text-[13px] landing-[20px] text-[#888888] font-medium pb-[17px]"
+        >
+          {{ item.text }}
+        </p>
         <div class="team-card-icons flex gap-[16px]">
           <a href="#" class="team-icons text-[#888888]"
             ><svg
@@ -91,31 +109,31 @@
 
 <script>
 export default {
-  data () {
+  data() {
     return {
       data: [
         {
           // img: require('../photos/Logo'),
-          title: 'Nattasha',
-          text: 'Web Develper'
+          title: "Nattasha",
+          text: "Web Develper",
         },
         {
           // img: require('../photos/Logo'),
-          title: 'John Doe',
-          text: 'Web Designer'
+          title: "John Doe",
+          text: "Web Designer",
         },
         {
           // img: require('../photos/Logo'),
-          title: 'Haris Milas',
-          text: 'Ceo & Co-Funder'
+          title: "Haris Milas",
+          text: "Ceo & Co-Funder",
         },
         {
           // img: require('../photos/Logo'),
-          title: 'Nelson Mecoy',
-          text: 'Marketing Manager'
+          title: "Nelson Mecoy",
+          text: "Marketing Manager",
         },
-      ]
-    }
-  }
-}
+      ],
+    };
+  },
+};
 </script>

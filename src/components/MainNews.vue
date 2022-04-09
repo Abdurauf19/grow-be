@@ -1,10 +1,10 @@
 <template>
-  <div class="container-news">
+  <div class="container-news" v-if="false">
     <div class="main-news__content">
       <h3 class="news-content__title pb-[5px] pt-[86px] text-[45px] text-[#000000] text-center font-bold">Our Latest News </h3>
       <p class="news-content__text w-[569px] text-[16px] text-[#666666] landing-[24px] pb-[55px] text-center">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Suspendisse ante arcu, consectetur id nisl eget.</p>
     </div>
-     <Splide :options="options" ca>
+     <Splide :options="options" >
       <SplideSlide v-for="(item, index) in data" :key="index" class="flex justify-center items-center mb-[50px]">
         <img src="../photos/newsSlayd.png" alt="" class="pr-[30px]">
        <news-slaide :cardTitle="item.cardTitle" :cardText="item.cardText" :iconTitle="item.iconTitle" :cardBtn="item.cardBtn"/>
