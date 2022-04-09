@@ -18,12 +18,12 @@
         <input
           type="text"
           class="mainForm-url text-[11px] text-[#666666]"
-          placeholder="Web URL"
+          placeholder="Web URL" required
         />
         <input
           type="email"
           class="mainForm-email text-[11px] text-[#666666] mr-[29px]"
-          placeholder="Email Address"
+          placeholder="Email Address" required
         />
         <button type="submit" class="mainFrom-btn text-[#FFFDFD] text-[13px]">
           Submit

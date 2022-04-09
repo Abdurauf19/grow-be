@@ -6,7 +6,7 @@
       >
         {{ title }}
       </p>
-      <img src="/src/photos/commentSlayd.png" alt="" />
+      <img src="#" alt="" />
       <h3 class="text-center text-[13px] font-bold text-[#000000] pt-[10px]">
         {{ name }}
       </h3>

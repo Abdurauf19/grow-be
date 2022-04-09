@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div class="pb-[100px]">
     <div
       class="main-comment__content flex flex-col items-center justify-center"
     >
