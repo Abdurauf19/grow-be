@@ -8,6 +8,7 @@ module.exports = {
   rules: {
     // override/add rules settings here, such as:
     // 'vue/no-unused-vars': 'error'
-    "vue/no-v-html": 0
+    "vue/no-v-html": 0,
+    "vue/multi-word-component-names": 0
   }
 }
