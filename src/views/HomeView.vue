@@ -1,20 +1,20 @@
 <template>
   <header class="containerr">
-    <headerNav/>
-    <headerContent/>
-    <headerLogo/>
+    <headerNav />
+    <headerContent />
+    <headerLogo />
   </header>
   <main class="main">
-    <mainSolution/>
-    <mainCard/>
-    <mainBox/>
+    <mainSolution />
+    <mainCard />
+    <mainBox />
     <mainSeo />
     <mainNumber />
-    <mainForm/>
-    <mainPlan/>
-    <mainTeam/>
-    <mainComment/>
-    <mainNews/>
+    <mainForm />
+    <mainPlan />
+    <mainTeam />
+    <mainComment />
+    <mainNews />
   </main>
   <footer class="footer">
     <footerLink />

@@ -3,7 +3,6 @@ import HomeView from '../views/HomeView.vue'
 import AboutView from '../views/AboutView.vue'
 import Jobs from '../views/jobsView'
 import NotFound from '../views/NotFound'
-import JobDetail from '../views/JobsDetails.vue'
 
 const routes = [
   {
@@ -20,12 +19,6 @@ const routes = [
     path: '/jobs',
     name: 'jobs',
     component: Jobs
-  },
-  {
-    path: '/jobs/:id',
-    name: 'JobDetails',
-    component: JobDetail,
-    props: true
   },
   // redirect
   {
