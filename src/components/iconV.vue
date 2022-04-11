@@ -1,5 +1,9 @@
 <template>
-  <i v-if="src" class="icon" v-html="src"></i>
+  <i
+    v-if="src"
+    class="icon"
+    v-html="src"
+  />
 </template>
 <script>
 /* eslint-disable vue/return-in-computed-property */

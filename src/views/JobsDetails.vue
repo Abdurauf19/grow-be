@@ -1,6 +1,6 @@
 <template>
- <h1>Job Details Page</h1>
- <p>The job id is {{ $route.params.id }}</p>
+  <h1>Job Details Page</h1>
+  <p>The job id is {{ $route.params.id }}</p>
 </template>
 
 <script>

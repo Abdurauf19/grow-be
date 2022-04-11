@@ -16,8 +16,15 @@
       </p>
     </div>
     <Splide :options="options">
-      <SplideSlide v-for="(item, index) in data" :key="index">
-        <CommentCard :title="item.title" :name="item.name" :job="item.job" />
+      <SplideSlide
+        v-for="(item, index) in data"
+        :key="index"
+      >
+        <CommentCard
+          :title="item.title"
+          :name="item.name"
+          :job="item.job"
+        />
       </SplideSlide>
     </Splide>
   </div>

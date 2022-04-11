@@ -8,7 +8,11 @@
       xmlns="http://www.w3.org/2000/svg"
       xmlns:xlink="http://www.w3.org/1999/xlink"
     >
-      <rect width="160" height="50" fill="url(#pattern0)" />
+      <rect
+        width="160"
+        height="50"
+        fill="url(#pattern0)"
+      />
       <defs>
         <pattern
           id="pattern0"
@@ -16,7 +20,10 @@
           width="1"
           height="1"
         >
-          <use xlink:href="#image0_1_610" transform="scale(0.00625 0.02)" />
+          <use
+            xlink:href="#image0_1_610"
+            transform="scale(0.00625 0.02)"
+          />
         </pattern>
         <image
           id="image0_1_610"
@@ -35,7 +42,11 @@
       xmlns="http://www.w3.org/2000/svg"
       xmlns:xlink="http://www.w3.org/1999/xlink"
     >
-      <rect width="160" height="50" fill="url(#pattern0)" />
+      <rect
+        width="160"
+        height="50"
+        fill="url(#pattern0)"
+      />
       <defs>
         <pattern
           id="pattern0"
@@ -43,7 +54,10 @@
           width="1"
           height="1"
         >
-          <use xlink:href="#image0_1_611" transform="scale(0.00625 0.02)" />
+          <use
+            xlink:href="#image0_1_611"
+            transform="scale(0.00625 0.02)"
+          />
         </pattern>
         <image
           id="image0_1_611"
@@ -62,7 +76,11 @@
       xmlns="http://www.w3.org/2000/svg"
       xmlns:xlink="http://www.w3.org/1999/xlink"
     >
-      <rect width="160" height="50" fill="url(#pattern0)" />
+      <rect
+        width="160"
+        height="50"
+        fill="url(#pattern0)"
+      />
       <defs>
         <pattern
           id="pattern0"
@@ -70,7 +88,10 @@
           width="1"
           height="1"
         >
-          <use xlink:href="#image0_1_612" transform="scale(0.00625 0.02)" />
+          <use
+            xlink:href="#image0_1_612"
+            transform="scale(0.00625 0.02)"
+          />
         </pattern>
         <image
           id="image0_1_612"
@@ -89,7 +110,11 @@
       xmlns="http://www.w3.org/2000/svg"
       xmlns:xlink="http://www.w3.org/1999/xlink"
     >
-      <rect width="160" height="50" fill="url(#pattern0)" />
+      <rect
+        width="160"
+        height="50"
+        fill="url(#pattern0)"
+      />
       <defs>
         <pattern
           id="pattern0"
@@ -97,7 +122,10 @@
           width="1"
           height="1"
         >
-          <use xlink:href="#image0_1_613" transform="scale(0.00625 0.02)" />
+          <use
+            xlink:href="#image0_1_613"
+            transform="scale(0.00625 0.02)"
+          />
         </pattern>
         <image
           id="image0_1_613"
@@ -116,7 +144,11 @@
       xmlns="http://www.w3.org/2000/svg"
       xmlns:xlink="http://www.w3.org/1999/xlink"
     >
-      <rect width="160" height="50" fill="url(#pattern0)" />
+      <rect
+        width="160"
+        height="50"
+        fill="url(#pattern0)"
+      />
       <defs>
         <pattern
           id="pattern0"
@@ -124,7 +156,10 @@
           width="1"
           height="1"
         >
-          <use xlink:href="#image0_1_614" transform="scale(0.00625 0.02)" />
+          <use
+            xlink:href="#image0_1_614"
+            transform="scale(0.00625 0.02)"
+          />
         </pattern>
         <image
           id="image0_1_614"
@@ -143,7 +178,11 @@
       xmlns="http://www.w3.org/2000/svg"
       xmlns:xlink="http://www.w3.org/1999/xlink"
     >
-      <rect width="160" height="50" fill="url(#pattern0)" />
+      <rect
+        width="160"
+        height="50"
+        fill="url(#pattern0)"
+      />
       <defs>
         <pattern
           id="pattern0"
@@ -151,7 +190,10 @@
           width="1"
           height="1"
         >
-          <use xlink:href="#image0_1_615" transform="scale(0.00625 0.02)" />
+          <use
+            xlink:href="#image0_1_615"
+            transform="scale(0.00625 0.02)"
+          />
         </pattern>
         <image
           id="image0_1_615"

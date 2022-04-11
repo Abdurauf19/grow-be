@@ -11,13 +11,16 @@
         catalysts for chang the Seamlessly underwhelm optimal testing
         procedures.
       </p>
-      <a href="#" class="solution-content__btn">Learn More</a>
+      <a
+        href="#"
+        class="solution-content__btn"
+      >Learn More</a>
     </div>
     <!-- img -->
     <img
       src="../photos/macbook.png"
       alt="main photo macbook"
       class="main-solution__img"
-    />
+    >
   </div>
 </template>

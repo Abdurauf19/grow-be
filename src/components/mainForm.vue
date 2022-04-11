@@ -18,18 +18,27 @@
         <input
           type="text"
           class="mainForm-url text-[11px] text-[#666666]"
-          placeholder="Web URL" required
-        />
+          placeholder="Web URL"
+          required
+        >
         <input
           type="email"
           class="mainForm-email text-[11px] text-[#666666] mr-[29px]"
-          placeholder="Email Address" required
-        />
-        <button type="submit" class="mainFrom-btn text-[#FFFDFD] text-[13px]">
+          placeholder="Email Address"
+          required
+        >
+        <button
+          type="submit"
+          class="mainFrom-btn text-[#FFFDFD] text-[13px]"
+        >
           Submit
         </button>
       </div>
     </form>
-    <img src="../photos/formImg.png" alt="FormImg" class="Form-img" />
+    <img
+      src="../photos/formImg.png"
+      alt="FormImg"
+      class="Form-img"
+    >
   </div>
 </template>

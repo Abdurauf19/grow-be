@@ -237,6 +237,14 @@
     }
   }
 
+  // Seo tcontainer
+  .container-seo {
+
+    .seo-content__title {
+      text-align: center;
+    }
+  } 
+  
   // main card
   .main-card {
     align-items: center;
@@ -280,12 +288,14 @@
 
     .mainForm-content__title  {
       font-size: 33px;
-      max-width: 211px;
+      max-width: 300px;
     }
     .mainForm-content__text {
       max-width: 301px;
       font-size: 12px;
     }
+
+    
   }
 
   // Main team
@@ -293,6 +303,7 @@
 
     .team-content__title {
       font-size: 36px;
+      text-align: center;
     }
     .team-content__text {
       max-width: 360px;

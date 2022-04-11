@@ -1,9 +1,12 @@
- <template>
- <div>
-<h2 class="dsadasd">404</h2>
-<h3 class="asasa">page not found</h3>
-
- </div>
+<template>
+  <div>
+    <h2 class="dsadasd">
+      404
+    </h2>
+    <h3 class="asasa">
+      page not found
+    </h3>
+  </div>
 </template>
 
 <style lang="scss" scoped>
